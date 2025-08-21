@@ -184,3 +184,8 @@ int main() {
 }
 ```
 
+## Justificación de la Solución:
+
+Por lo visto en la unidad, es necesario saber dónde ocurren los procesos de cada acción que hagamos en el código. En este caso, el compañero que realizó el código no tuvo en cuenta que métodos como new o librerías como malloc reservan memoria en el heap, parte de la memoria no automatizada en C++, y que es necesario liberar espacio posteriormente. Por ende, es necesario crear un destructor que borre la información por medio de delete.
+
+Lo implementado en el código y mis instrucciones no son perfectos, pero sé que pueden mejorar bastante el rendimiento. También se tuvo en cuenta la corrección del puntero, para que todos los personajes tengan sus propias estadísticas y no compartan una misma estadística.
