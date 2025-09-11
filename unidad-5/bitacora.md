@@ -1,4 +1,5 @@
 # Bitácora de aprendizaje de la unidad 5
+LINK DE LAS ACTIVIDADES: (https://juanferfranco.github.io/computacionales-2025-20/units/unit5/)
 
 ## 1.  **Diagnóstico inicial**
 
