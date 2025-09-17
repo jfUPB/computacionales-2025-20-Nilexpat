@@ -39,6 +39,12 @@ Polimorfismo:
 
 ## 2.  **La pregunta inicial**
 
+**COSAS QUE ME GENERAN DUDAS**
+
+* ¿como se implemetan los o se crean nuevos objetos?
+* ¿como creo un objeto diferente (polimorfismo)?
+* ¿que debo de tener en cuenta para crear nuevos objetos con relacion a la clase abstracta ?
+
 ## 3.  **Registro de exploración:** 
 > Aquí documentas cada ciclo de pregunta -> hipótesis -> experimento -> hallazgo -> reflexión.
 > Debe ser rico en evidencia visual (código, capturas del depurador con anotaciones, diagramas).
