@@ -60,6 +60,15 @@ Aqui observamos como se generan 3 figuras distintas con sus respectivas medidas,
   Hipotesis: no tengo idea, talvez ayude con el orden, o para guardar los objetos en un espacio de la memoria, talvez con esta lista podamos tener mayor control de estos objetos en programaciones mas avanzandas y necesitemos recorrer una lista.
   
 ### exploracion Activida 2
+
+**Analisis del codigo**
+
+En el codigo podemos observar como se crean dos clases abstractas una llamada ``Particula``(define el comportamiento de la particula y el momento en el que morira) y otra Llamada ``ExplosionParticle``(define como van a explotar las pariculas;cuadradas,circulares o estrella)
+
+**COSAS QUE ME GENERAN DUDAS**
+
+* ¿como sabe la clase ExplosionParticle cuando muere Una particula para activarse o como funciona la comunicacion entre estas dos clases abtractas?
+
 > Aquí documentas cada ciclo de pregunta -> hipótesis -> experimento -> hallazgo -> reflexión.
 > Debe ser rico en evidencia visual (código, capturas del depurador con anotaciones, diagramas).
 
