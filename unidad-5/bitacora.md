@@ -48,6 +48,8 @@ Polimorfismo:
 
 ## 3.  **Registro de exploración:** 
 
+### exploracion Actividad 1
+
 <img width="470" height="95" alt="image" src="https://github.com/user-attachments/assets/74ea82a9-a5c1-4a4c-931d-633cc69e18c4" />
 
 
@@ -56,7 +58,8 @@ Aqui observamos como se generan 3 figuras distintas con sus respectivas medidas,
 * ¿Para implementar o dibujar las figuras es necesrio crear una lista, porque y como funciona?  ``List<Figura> misFiguras = new List<Figura>();``
 
   Hipotesis: no tengo idea, talvez ayude con el orden, o para guardar los objetos en un espacio de la memoria, talvez con esta lista podamos tener mayor control de estos objetos en programaciones mas avanzandas y necesitemos recorrer una lista.
-
+  
+### exploracion Activida 2
 > Aquí documentas cada ciclo de pregunta -> hipótesis -> experimento -> hallazgo -> reflexión.
 > Debe ser rico en evidencia visual (código, capturas del depurador con anotaciones, diagramas).
 
