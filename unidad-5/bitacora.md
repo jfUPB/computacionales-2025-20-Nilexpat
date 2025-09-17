@@ -91,6 +91,11 @@ if (particles[i]->shouldExplode()) {
 }
 
 ```
+Evidencias fotograficas
+<img width="1080" height="848" alt="image" src="https://github.com/user-attachments/assets/4ab602f2-9c07-41b2-b224-6e77928fbad7" />
+<img width="844" height="602" alt="image" src="https://github.com/user-attachments/assets/73256d3a-a968-4799-8d05-02eef46f4ab4" />
+
+### exploracion Activida 3
 
 **COSAS QUE ME GENERAN DUDAS**
 
