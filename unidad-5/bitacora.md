@@ -105,6 +105,7 @@ Evidencias fotograficas
 
 Analizando la memoria de estos dos objetos me doy cuenta que comparten la mayoria de sus metodos, ecepto la forma en este caso el draw y la clase hija de cada una de ellas. Aqui observamos como se evidencia el polimorfismo en los objetos de una misma clase abstracta ya que son dos figuras diferentes que comparten los mismos metodos.
 
+### exploracion Activida 
 
 
 **COSAS QUE ME GENERAN DUDAS**
