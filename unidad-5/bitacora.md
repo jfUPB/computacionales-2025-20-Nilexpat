@@ -128,9 +128,6 @@ Mi hipotesis es que el main no puede modificar una variable privada o protegida 
 
 * ¿cual es la diferencia entre una variable privada y protegida?
 
-* Aquí documentas cada ciclo de pregunta -> hipótesis -> experimento -> hallazgo -> reflexión.
-* Debe ser rico en evidencia visual (código, capturas del depurador con anotaciones, diagramas).
-
 ## 4.  **Consolidación, autoevaluación y cierre:**
 > [!CAUTION]
 > Esta sección es OBLIGATORIA y central para tu evaluación
