@@ -97,12 +97,15 @@ Evidencias fotograficas
 
 ### exploracion Activida 3
 
+> 📝 **Note**  
+> Profe, tuve problemas para ver la memoria no se que estoy haciendo mal, en actividades pasadas ya lo habia hecho pero en esta no me ha dejado, usare sus pantallazos como referencia.  
+
 **COSAS QUE ME GENERAN DUDAS**
 
 * ¿como sabe la clase ExplosionParticle cuando muere Una particula para activarse o como funciona la comunicacion entre estas dos clases abtractas?
 
-> Aquí documentas cada ciclo de pregunta -> hipótesis -> experimento -> hallazgo -> reflexión.
-> Debe ser rico en evidencia visual (código, capturas del depurador con anotaciones, diagramas).
+* Aquí documentas cada ciclo de pregunta -> hipótesis -> experimento -> hallazgo -> reflexión.
+* Debe ser rico en evidencia visual (código, capturas del depurador con anotaciones, diagramas).
 
 ## 4.  **Consolidación, autoevaluación y cierre:**
 > [!CAUTION]
