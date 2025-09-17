@@ -98,7 +98,14 @@ Evidencias fotograficas
 ### exploracion Activida 3
 
 > 📝 **Note**  
-> Profe, tuve problemas para ver la memoria no se que estoy haciendo mal, en actividades pasadas ya lo habia hecho pero en esta no me ha dejado, usare sus pantallazos como referencia.  
+> Profe, tuve problemas para ver la memoria no se que estoy haciendo mal, en actividades pasadas ya lo habia hecho pero en esta no me ha dejado, usare sus pantallazos como referencia.
+
+<img width="1177" height="346" alt="image" src="https://github.com/user-attachments/assets/dd6184c3-cdd8-4f50-a823-d4f5f5be02d0" />
+<img width="1183" height="341" alt="image" src="https://github.com/user-attachments/assets/83c927b6-8c66-4279-86eb-633364d54da3" />
+
+Analizando la memoria de estos dos objetos me doy cuenta que comparten la mayoria de sus metodos, ecepto la forma en este caso el draw y la clase hija de cada una de ellas. Aqui observamos como se evidencia el polimorfismo en los objetos de una misma clase abstracta ya que son dos figuras diferentes que comparten los mismos metodos.
+
+
 
 **COSAS QUE ME GENERAN DUDAS**
 
