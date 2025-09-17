@@ -111,6 +111,8 @@ Analizando la memoria de estos dos objetos me doy cuenta que comparten la mayori
 
 ### exploracion Actividad 4 
 
+**ejemplo 1**
+
 En esta activdad nos centraremos en el encapsulamiento, aqui se puede ver un ejemplo de una clase que tiene 3 variables una protegida otra privada y una publica. Esto Ocurre al ejecutar el codigo y intemos modificar desde el main una variable publica
 
 <img width="1462" height="264" alt="image" src="https://github.com/user-attachments/assets/54821cfe-409f-413b-97ba-8d0f1c892d63" />
@@ -122,6 +124,47 @@ y esto ocurre cuando intentamos modificar una variable privada o protegida:
 
 Mi hipotesis es que el main no puede modificar una variable privada o protegida y por ello el computador bloquea el programa.
 
+**ejemplo 2**
+
+<img width="853" height="89" alt="image" src="https://github.com/user-attachments/assets/10f2c316-b7a6-4bc4-b944-6b1e5aa83500" />
+
+Como se observa no me dejo compilarlo.
+
+**ejemplo 3**
+
+analisis del codigo: observamos que es elo mimos ejemplo con el anterior solo que aqui cambia el main, tambien se observa como el main es capaz de engañar al encapsulamiento debido a esta parte del codigo ``reinterpret_cast`` y aqui voy a pegar las dos clases para observar las diferencias
+
+```cpp
+int main() {
+    MyClass obj(42, 3.14f, 'A');
+    // Esta línea causará un error de compilación
+    std::cout << obj.secret1 << std::endl;
+
+    obj.printMembers();  // Método público para mostrar los valores
+    return 0;
+}
+```
+
+```cpp
+int main() {
+    MyClass obj(42, 3.14f, 'A');
+
+    // Usando reinterpret_cast para violar el encapsulamiento
+    int* ptrInt = reinterpret_cast<int*>(&obj);
+    float* ptrFloat = reinterpret_cast<float*>(ptrInt + 1);
+    char* ptrChar = reinterpret_cast<char*>(ptrFloat + 1);
+
+    // Accediendo y mostrando los valores privados
+    std::cout << "Accediendo directamente a los miembros privados:\n";
+    std::cout << "secret1: " << *ptrInt << "\n";       // Accede a secret1
+    std::cout << "secret2: " << *ptrFloat << "\n";     // Accede a secret2
+    std::cout << "secret3: " << *ptrChar << "\n";      // Accede a secret3
+
+    return 0;
+}
+```
+
+<img width="606" height="105" alt="image" src="https://github.com/user-attachments/assets/668b584a-6915-469c-b92f-50dc2e27901a" />
 
 
 **COSAS QUE ME GENERAN DUDAS**
