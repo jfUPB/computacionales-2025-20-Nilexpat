@@ -171,6 +171,9 @@ int main() {
 
 * ¿cual es la diferencia entre una variable privada y protegida?
 
+### exploracion Actividad 5
+
+
 ## 4.  **Consolidación, autoevaluación y cierre:**
 > [!CAUTION]
 > Esta sección es OBLIGATORIA y central para tu evaluación
