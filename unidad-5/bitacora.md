@@ -53,7 +53,9 @@ Polimorfismo:
 
 Aqui observamos como se generan 3 figuras distintas con sus respectivas medidas, todas estas tienen una misma clase en comun la cual es la clase figura, luego se crean clases aparte de cada figura, estas figuras heredan la clase Figura y luego son implementadas por el main() en donde se les asignan sus valores ``misFiguras.Add(new Circulo(5.0));``
 
-¿Para implementar o dibujar las figuras es necesrio crear una lista, porque y como funciona?  ``List<Figura> misFiguras = new List<Figura>();``
+* ¿Para implementar o dibujar las figuras es necesrio crear una lista, porque y como funciona?  ``List<Figura> misFiguras = new List<Figura>();``
+
+  Hipotesis: no tengo idea, talvez ayude con el orden, o para guardar los objetos en un espacio de la memoria, talvez con esta lista podamos tener mayor control de estos objetos en programaciones mas avanzandas y necesitemos recorrer una lista.
 
 > Aquí documentas cada ciclo de pregunta -> hipótesis -> experimento -> hallazgo -> reflexión.
 > Debe ser rico en evidencia visual (código, capturas del depurador con anotaciones, diagramas).
