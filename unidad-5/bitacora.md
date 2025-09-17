@@ -116,7 +116,10 @@ En esta activdad nos centraremos en el encapsulamiento, aqui se puede ver un eje
 <img width="1462" height="264" alt="image" src="https://github.com/user-attachments/assets/54821cfe-409f-413b-97ba-8d0f1c892d63" />
 
 y esto ocurre cuando intentamos modificar una variable privada o protegida:
+
 <img width="576" height="273" alt="image" src="https://github.com/user-attachments/assets/27e47619-f1b3-45d4-9333-887ce3701af2" />
+<img width="880" height="81" alt="image" src="https://github.com/user-attachments/assets/a28ad71c-3cf7-4845-9122-2da6e34cab26" />
+
 Mi hipotesis es que el main no puede modificar una variable privada o protegida y por ello el computador bloquea el programa.
 
 
