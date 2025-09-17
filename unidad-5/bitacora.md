@@ -63,7 +63,34 @@ Aqui observamos como se generan 3 figuras distintas con sus respectivas medidas,
 
 **Analisis del codigo**
 
+Ofapp.h
+
 En el codigo podemos observar como se crean dos clases abstractas una llamada ``Particula``(define el comportamiento de la particula y el momento en el que morira) y otra Llamada ``ExplosionParticle``(define como van a explotar las pariculas;cuadradas,circulares o estrella)
+
+Ofapp.cpp
+
+En este lado del codigo podemos observar como se llaman a las particulas cuando damos click y toda la logica detras de ello, aqui anotare lo importante que resuelven algunas dudas obtenidas en la actividad pasada.
+
+primero ¿como implemento estos objetos en el codigo?: en el siguiente codigo observamos como se elige una particula entre todas las que hay ``int explosionType = (int)ofRandom(3); // 0: Circular, 1: Random, 2: Star`` luego se procede a ejecutar las particulas seleccionadas de forma aleatoria con la siguientes instrucciones ``particles.push_back(new CircularExplosion(particles[i]->getPosition(), particles[i]->getColor()));`` estas instrucciones tambien las podemos leer de la siguiente forma: creame una explosion circular y quiero que tomes la posicion y color de la particula "de tal arreglo ``[i]``".  
+
+```cpp
+if (particles[i]->shouldExplode()) {
+	int explosionType = (int)ofRandom(3); // 0: Circular, 1: Random, 2: Star
+	int numParticles = (int)ofRandom(20, 30);
+	for (int j = 0; j < numParticles; j++) {
+		if (explosionType == 0) {
+			particles.push_back(new CircularExplosion(particles[i]->getPosition(), particles[i]->getColor()));
+		} else if (explosionType == 1) {
+			particles.push_back(new RandomExplosion(particles[i]->getPosition(), particles[i]->getColor()));
+		} else {
+			particles.push_back(new StarExplosion(particles[i]->getPosition(), particles[i]->getColor()));
+		}
+	}
+	delete particles[i];
+	particles.erase(particles.begin() + i);
+}
+
+```
 
 **COSAS QUE ME GENERAN DUDAS**
 
