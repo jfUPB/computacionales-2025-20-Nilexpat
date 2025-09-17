@@ -59,7 +59,7 @@ Aqui observamos como se generan 3 figuras distintas con sus respectivas medidas,
 
   Hipotesis: no tengo idea, talvez ayude con el orden, o para guardar los objetos en un espacio de la memoria, talvez con esta lista podamos tener mayor control de estos objetos en programaciones mas avanzandas y necesitemos recorrer una lista.
   
-### exploracion Activida 2
+### exploracion Actividad 2
 
 **Analisis del codigo**
 
@@ -95,7 +95,7 @@ Evidencias fotograficas
 <img width="1080" height="848" alt="image" src="https://github.com/user-attachments/assets/4ab602f2-9c07-41b2-b224-6e77928fbad7" />
 <img width="844" height="602" alt="image" src="https://github.com/user-attachments/assets/73256d3a-a968-4799-8d05-02eef46f4ab4" />
 
-### exploracion Activida 3
+### exploracion Actividad 3
 
 > 📝 **Note**  
 > Profe, tuve problemas para ver la memoria no se que estoy haciendo mal, en actividades pasadas ya lo habia hecho pero en esta no me ha dejado, usare sus pantallazos como referencia.
@@ -105,12 +105,25 @@ Evidencias fotograficas
 
 Analizando la memoria de estos dos objetos me doy cuenta que comparten la mayoria de sus metodos, ecepto la forma en este caso el draw y la clase hija de cada una de ellas. Aqui observamos como se evidencia el polimorfismo en los objetos de una misma clase abstracta ya que son dos figuras diferentes que comparten los mismos metodos.
 
-### exploracion Activida 
+**COSAS QUE ME GENERAN DUDAS**
+
+* ¿como sabe la clase ExplosionParticle cuando muere Una particula para activarse o como funciona la comunicacion entre estas dos clases abtractas?
+
+### exploracion Actividad 4 
+
+En esta activdad nos centraremos en el encapsulamiento, aqui se puede ver un ejemplo de una clase que tiene 3 variables una protegida otra privada y una publica. Esto Ocurre al ejecutar el codigo y intemos modificar desde el main una variable publica
+
+<img width="1462" height="264" alt="image" src="https://github.com/user-attachments/assets/54821cfe-409f-413b-97ba-8d0f1c892d63" />
+
+y esto ocurre cuando intentamos modificar una variable privada o protegida:
+<img width="576" height="273" alt="image" src="https://github.com/user-attachments/assets/27e47619-f1b3-45d4-9333-887ce3701af2" />
+Mi hipotesis es que el main no puede modificar una variable privada o protegida y por ello el computador bloquea el programa.
+
 
 
 **COSAS QUE ME GENERAN DUDAS**
 
-* ¿como sabe la clase ExplosionParticle cuando muere Una particula para activarse o como funciona la comunicacion entre estas dos clases abtractas?
+* ¿cual es la diferencia entre una variable privada y protegida?
 
 * Aquí documentas cada ciclo de pregunta -> hipótesis -> experimento -> hallazgo -> reflexión.
 * Debe ser rico en evidencia visual (código, capturas del depurador con anotaciones, diagramas).
