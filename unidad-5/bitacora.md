@@ -41,11 +41,16 @@ Polimorfismo:
 
 **COSAS QUE ME GENERAN DUDAS**
 
+
 * ¿como se implemetan los o se crean nuevos objetos?
 * ¿como creo un objeto diferente (polimorfismo)?
 * ¿que debo de tener en cuenta para crear nuevos objetos con relacion a la clase abstracta ?
 
 ## 3.  **Registro de exploración:** 
+
+<img width="470" height="95" alt="image" src="https://github.com/user-attachments/assets/74ea82a9-a5c1-4a4c-931d-633cc69e18c4" />
+Aqui observamos como se generan 3 figuras distintas con sus respectivas medidas, todas estas tienen una misma clase en comun la cual es la clase figura, luego se crean clases aparte de cada figura, estas figuras heredan la clase Figura y luego son implementadas por el main() en donde se les asignan sus valores ``misFiguras.Add(new Circulo(5.0));``
+
 > Aquí documentas cada ciclo de pregunta -> hipótesis -> experimento -> hallazgo -> reflexión.
 > Debe ser rico en evidencia visual (código, capturas del depurador con anotaciones, diagramas).
 
