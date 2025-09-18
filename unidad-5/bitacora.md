@@ -21,7 +21,7 @@ Es momento de hacer una de las fases más importantes del aprendizaje: la reflex
 
 * Pregúntate: ¿Qué conceptos domino bien? ¿Cuáles me cuestan más trabajo?
 
-En esta unidad avance en mi proceso de aprendizaje de POO entiendo como crear clases abstractas, como heredar las clases y como funciona el encapsulamiento
+En esta unidad avance en mi proceso de aprendizaje de POO entiendo como crear clases abstractas, como heredar las clases y como funciona el encapsulamiento. Una accióm que me gustaria indagar y entender mas es la forma en la que se itera una lista y la forma en la que podemos usar una lista para optimizar la memoria.
   
 * Pregúntate para qué pueden servirte estos conceptos.
 
