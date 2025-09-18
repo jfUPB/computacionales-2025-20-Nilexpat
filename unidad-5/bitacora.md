@@ -193,6 +193,64 @@ Entonces, cuando se llama este método, se adapta a las necesidades del objeto i
 
 ### Actividad 7
 
+¿Qué harás?
+
+[] Agrega dos nuevos tipos de Particle diferentes a RisingParticle.
+[] Implementar un nuevo modo de explosión.
+
+Aqui creamos una clase para crear una explosion triangulo.
+
+```cpp
+class TriangularExplosion : public ExplosionParticle {
+public:
+	TriangularExplosion(const glm::vec2 & pos, const ofColor & col)
+		: ExplosionParticle(pos, glm::vec2(0, 0), col, 1.2f, ofRandom(16, 32)) {
+		velocity = glm::vec2(ofRandom(-150, 150), ofRandom(-150, 150));
+	}
+
+	void draw() override {
+		ofSetColor(color);
+
+		float x = position.x;
+		float y = position.y;
+		float r= size;
+		ofDrawTriangle(
+
+		x, y - r,
+		x - r, y + r,
+		x + r, y + r
+		);
+	}
+};
+```
+
+Aqui ampliamos el rongo del random de 3->4
+```cpp
+int explosionType = (int)ofRandom(3); // 0: Circular, 1: Random, 2: Star, 3: triangulo
+```
+
+Aqui agregamos en el if el llamado de la clase triangulo
+```cpp
+for (int j = 0; j < numParticles; j++) {
+	if (explosionType == 0) {
+		particles.push_back(new CircularExplosion(particles[i]->getPosition(), particles[i]->getColor()));
+	} else if (explosionType == 1) {
+		particles.push_back(new RandomExplosion(particles[i]->getPosition(), particles[i]->getColor()));
+	}else if (explosionType == 3) {
+		particles.push_back(new TriangularExplosion(particles[i]->getPosition(), particles[i]->getColor()));
+	}
+	else {
+		particles.push_back(new StarExplosion(particles[i]->getPosition(), particles[i]->getColor()));
+	}
+}
+```
+
+[] Reporta en tu bitácora de aprendizaje:
+
+[] ¿Cómo y por qué de la implementación de cada una de las extensiones solicitadas al caso de estudio?
+[] ¿Cómo y por qué de la implementación de los conceptos de encapsulamiento, herencia y polimorfismo en tu código?
+[] Explica cómo verificaste que cada una de las extensiones funciona correctamente, muestra capturas de pantalla del depurador donde evidencias lo anterior, en particular el polimorfismo en tiempo de ejecución.
+
 ## 4.  **Consolidación, autoevaluación y cierre:**
 > [!CAUTION]
 > Esta sección es OBLIGATORIA y central para tu evaluación
