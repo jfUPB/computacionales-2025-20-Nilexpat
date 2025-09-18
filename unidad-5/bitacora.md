@@ -305,4 +305,12 @@ Se que desde la depuracion y viendo en la ventana de la memoria, pero por alguna
 
 ## 4.  **Consolidación, autoevaluación y cierre:**
 
-En conclusion aprendi bastante en esta unidad, todo me quedo bastante claro exepto el encapsulamiento pero la verdad siento que es un tema de mas de practica que de entenderlo a la primera 
+En conclusion aprendi bastante en esta unidad, todo me quedo bastante claro exepto el encapsulamiento pero la verdad siento que es un tema de mas de practica que de entenderlo a la primera, ahora procedo con mi auto evaluacion.
+
+1. Profundidad de la Indagación = 5 : En lo personal me dedique la tarea de leer toda la unidad y tambien indagar mas con mas ejemplos, estudie cada codigo y como funcionaban como se relacionaba la herecia con las otras clases y puede identificar un multi herencia antes de llegar a la actividad que lo mencionaba.
+
+2. Calidad de la Experimentación = 3 : Experimente con los codigos pero el programa de visual estudio me fue algo defectuoso y no pude ver con detalle como se crean estos objetos y implementan los metodos dentro de la memoria.
+3. Análisis y Reflexión = 5 : Una de mis mayores metas en aprender a programar y tener un conocimiento teorico solido, me surgieron bastantes preguntas en el principio de la unidad pero con el tiempo que iba realizando mas las actividades lograba deducir por medio de la hipotesis como funcionba partes del codigo que desconocia tambien, cuando no encontraba respuesta le preguntaba a la IA para que me explicara.
+4. Apropiación y Articulación de Conceptos = 3.7 En la mayoria de las actividades logre terminarlas de forma exitosa, y muchas cosas que hice las documente como para una persona que anela aprender y le gustaria que sus conceptos o explicaciones fueran digeribles.
+
+Promedio = 4.2
