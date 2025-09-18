@@ -50,6 +50,8 @@ Polimorfismo:
 
 ### exploracion Actividad 1
 
+
+<a name="experimento1"></a>
 <img width="470" height="95" alt="image" src="https://github.com/user-attachments/assets/74ea82a9-a5c1-4a4c-931d-633cc69e18c4" />
 
 
@@ -309,7 +311,8 @@ En conclusion aprendi bastante en esta unidad, todo me quedo bastante claro exep
 
 1. Profundidad de la Indagación = 5 : En lo personal me dedique la tarea de leer toda la unidad y tambien indagar mas con mas ejemplos, estudie cada codigo y como funcionaban como se relacionaba la herecia con las otras clases y puede identificar un multi herencia antes de llegar a la actividad que lo mencionaba.
 
-2. Calidad de la Experimentación = 3 : Experimente con los codigos pero el programa de visual estudio me fue algo defectuoso y no pude ver con detalle como se crean estos objetos y implementan los metodos dentro de la memoria.
+2. Calidad de la Experimentación = 3 : Experimente con los codigos pero el programa de visual estudio me fue algo defectuoso y no pude ver con detalle como se crean estos objetos y implementan los metodos dentro de la memoria. Esta parte la coloca el profe para mostrar un ejemplo de enlace de evidencias: por ejemplo el [experimento 1](#experimento1)
+
 3. Análisis y Reflexión = 5 : Una de mis mayores metas en aprender a programar y tener un conocimiento teorico solido, me surgieron bastantes preguntas en el principio de la unidad pero con el tiempo que iba realizando mas las actividades lograba deducir por medio de la hipotesis como funcionba partes del codigo que desconocia tambien, cuando no encontraba respuesta le preguntaba a la IA para que me explicara.
 4. Apropiación y Articulación de Conceptos = 3.7 En la mayoria de las actividades logre terminarlas de forma exitosa, y muchas cosas que hice las documente como para una persona que anela aprender y le gustaria que sus conceptos o explicaciones fueran digeribles.
 
