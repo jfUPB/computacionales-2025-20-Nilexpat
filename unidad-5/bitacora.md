@@ -195,8 +195,46 @@ Entonces, cuando se llama este método, se adapta a las necesidades del objeto i
 
 ¿Qué harás?
 
-[] Agrega dos nuevos tipos de Particle diferentes a RisingParticle.
-[] Implementar un nuevo modo de explosión.
+- [x] Agrega dos nuevos tipos de Particle diferentes a RisingParticle.
+
+Cree una nueva clase llamada ``CaidaParticle : public Particle`` aqui utilice el mismo codigo y cambie algunos parametros para invertirlo.
+
+```cpp
+
+class CaidaParticle : public Particle {
+protected:
+	glm::vec2 position;
+	glm::vec2 velocity;
+	ofColor color;
+	float lifetime; // tiempo máximo antes de explotar
+	float age;
+	bool exploded;
+
+public:
+	CaidaParticle(const glm::vec2 & pos, const glm::vec2 & vel, const ofColor & col, float life)
+		: position(pos)
+		, velocity(vel)
+		, color(col)
+		, lifetime(life)
+		, age(0)
+		, exploded(false) {
+	}
+
+	void update(float dt) override {
+		position += velocity * dt;
+		age += dt;
+		// Aumenta la desaceleración para dar sensación de recorrido largo
+		velocity.y += 9.8f * dt * 8;
+		// Condición de explosión: cuando la partícula alcanza aproximadamente el 15% de la altura
+		float explosionThreshold = ofGetHeight() * 0.97 + ofRandom(-30, 30);
+		if (position.y >= explosionThreshold || age >= lifetime) {
+			exploded = true;
+		}
+	}
+```
+
+- [x] Implementar un nuevo modo de explosión.
+- [x] Reporta en tu bitácora de aprendizaje:
 
 Aqui creamos una clase para crear una explosion triangulo.
 
@@ -245,12 +283,26 @@ for (int j = 0; j < numParticles; j++) {
 }
 ```
 
-[] Reporta en tu bitácora de aprendizaje:
+Se logroooo!
+<img width="934" height="728" alt="image" src="https://github.com/user-attachments/assets/e47b9507-b578-4fcb-a311-2144a3dc5cac" />
 
-[] ¿Cómo y por qué de la implementación de cada una de las extensiones solicitadas al caso de estudio?
-[] ¿Cómo y por qué de la implementación de los conceptos de encapsulamiento, herencia y polimorfismo en tu código?
-[] Explica cómo verificaste que cada una de las extensiones funciona correctamente, muestra capturas de pantalla del depurador donde evidencias lo anterior, en particular el polimorfismo en tiempo de ejecución.
+
+- [ ] ¿Cómo y por qué de la implementación de cada una de las extensiones solicitadas al caso de estudio?
+- [x] ¿Cómo y por qué de la implementación de los conceptos de encapsulamiento, herencia y polimorfismo en tu código?
+
+El como implementarlo ya lo explique anteriormente, el ¿por que? 
+
+la herencia se ve asi:
+
+<img width="753" height="695" alt="image" src="https://github.com/user-attachments/assets/52f08f6d-dea4-4084-ada7-e347bf41445c" />
+
+Y el polimorfismo se puede entender como un objeto que puede tomar varias formas en este caso (cuadrado,circulo,triangulo y estrella).
+
+
+- [ ] Explica cómo verificaste que cada una de las extensiones funciona correctamente, muestra capturas de pantalla del depurador donde evidencias lo anterior, en particular el polimorfismo en tiempo de ejecución.
+
+Se que desde la depuracion y viendo en la ventana de la memoria, pero por alguna razon no me esta dejando abrir esa ventana.
 
 ## 4.  **Consolidación, autoevaluación y cierre:**
-> [!CAUTION]
-> Esta sección es OBLIGATORIA y central para tu evaluación
+
+En conclusion aprendi bastante en esta unidad, todo me quedo bastante claro exepto el encapsulamiento pero la verdad siento que es un tema de mas de practica que de entenderlo a la primera 
