@@ -189,6 +189,10 @@ Clase Triángulo : public Figura (posee un método llamado area que calcula (B *
 
 Entonces, cuando se llama este método, se adapta a las necesidades del objeto instanciado.
 
+## **Aplicacion**
+
+### Actividad 7
+
 ## 4.  **Consolidación, autoevaluación y cierre:**
 > [!CAUTION]
 > Esta sección es OBLIGATORIA y central para tu evaluación
