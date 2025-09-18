@@ -173,6 +173,21 @@ int main() {
 
 ### exploracion Actividad 5
 
+para haredar una clase es importante que la clase asbtracta sea publica y luego escribimos otra clase que quiera heredarlo y para hacerlo debe incluir la siguiente notacion ``: public NombreDeLaClase`` un ejemplo tomado del codigo ``class RisingParticle : public Particle {...}``.
+
+### exploracion Actividad 6
+
+¿Qué relación existe entre los métodos virtuales y el polimorfismo? Según lo que observo, un método virtual es un método que se adapta a la función llamada.
+
+Ejemplo:
+
+Clase Figura (posee un método virtual llamado area).
+
+Clase Rectángulo : public Figura (posee un método llamado area que calcula B * A).
+
+Clase Triángulo : public Figura (posee un método llamado area que calcula (B * A) / 2).
+
+Entonces, cuando se llama este método, se adapta a las necesidades del objeto instanciado.
 
 ## 4.  **Consolidación, autoevaluación y cierre:**
 > [!CAUTION]
